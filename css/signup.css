@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+    height: 570px;
+}
+
+#loginBox{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.inputBox{
+    background-color: rgb(15, 15, 15);
+    height: 30px;
+    width: 400px;
+    border: 0;
+    border-bottom: 1px solid white;
+    font-family: "Basis Grotesque",sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#btnAdd{
+    width: 120px;
+    height: 40px;
+    background-color: darkred;
+    padding: 1px;
+    border: 0;
+    color: wheat;
+    font-family: "Basis Grotesque",sans-serif;
+    font-size: 16px;
+}
