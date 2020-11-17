@@ -24,7 +24,7 @@ body{
     width: 400px;
     border: 0;
     border-bottom: 1px solid white;
-    font-family: "Basis Grotesque",sans-serif;
+    font-family: cursive;
     font-size: 16px;
     color: white;
 }
@@ -38,4 +38,5 @@ body{
     color: wheat;
     font-family: "Basis Grotesque",sans-serif;
     font-size: 16px;
+    font-family: cursive;
 }
