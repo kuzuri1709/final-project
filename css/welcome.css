@@ -1,4 +1,11 @@
 body{
+    margin: 0;
     background-image: url(http://getwallpapers.com/wallpaper/full/4/4/9/442793.jpg);
     background-size: cover;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(32, 29, 29);
 }
