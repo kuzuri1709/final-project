@@ -25,9 +25,19 @@ body{
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
+    gap: 10px;
 }
 
 #btnSignUp{
+    border: 1px solid darkred;
+    border-radius: 50px;
+    background-color: black;
+    color: darkred;
+    height: 30px;
+    width: 80px;
+}
+
+#btnLogin{
     border: 1px solid darkred;
     border-radius: 50px;
     background-color: black;
