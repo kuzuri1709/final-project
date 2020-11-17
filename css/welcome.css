@@ -2,10 +2,36 @@ body{
     margin: 0;
     background-image: url(http://getwallpapers.com/wallpaper/full/4/4/9/442793.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header{
     width: 100%;
     height: 60px;
-    background-color: rgb(32, 29, 29);
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logo{
+    height: 60px;
+}
+
+#accountBox{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#btnSignUp{
+    border: 1px solid darkred;
+    border-radius: 50px;
+    background-color: black;
+    color: darkred;
+    height: 30px;
+    width: 80px;
 }
