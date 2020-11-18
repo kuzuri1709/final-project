@@ -45,3 +45,19 @@ body{
     height: 30px;
     width: 80px;
 }
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#fb{
+    height: 40px;
+}
+
+#insta{
+    height: 60px;
+}
