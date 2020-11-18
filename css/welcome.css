@@ -29,19 +29,19 @@ body{
 }
 
 #btnSignUp{
-    border: 1px solid black;
-    border-radius: 30px;
-    background-color: white;
-    color: rgb(2, 2, 2);
+    border: 1px solid rgb(167, 7, 7);;
+    border-radius: 10px;
+    background-color: rgb(167, 7, 7);
+    color: rgb(255, 255, 255);
     height: 30px;
     width: 80px;
 }
 
 #btnLogin{
-    border: 1px solid black;
-    border-radius: 30px;
-    background-color: white;
-    color: rgb(0, 0, 0);
+    border: 1px solid rgb(167, 7, 7);;
+    border-radius: 10px;
+    background-color: rgb(167, 7, 7);
+    color: rgb(255, 255, 255);
     height: 30px;
     width: 80px;
 }
