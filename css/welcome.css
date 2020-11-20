@@ -8,10 +8,11 @@ body{
 #header{
     width: 100%;
     height: 60px;
-    background-color: white;
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
 }
 
 #logo{
@@ -44,6 +45,11 @@ body{
     color: rgb(255, 255, 255);
     height: 30px;
     width: 80px;
+}
+
+#content{
+    width: 100%;
+    
 }
 
 #footer{
