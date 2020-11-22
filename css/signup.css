@@ -119,7 +119,7 @@ h2{
     margin-top: 20px;
 }
 
-.create{
+#create{
   background-color: #da2c2c;
   border: none;
   color: rgb(255, 255, 255);
@@ -132,7 +132,7 @@ h2{
   margin-top: 60px;
 }
 
-.create:hover {opacity: 1}
+#create:hover {opacity: 1}
 
 .already{
     font-size: 10px;
