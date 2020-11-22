@@ -54,27 +54,15 @@ body{
     padding-top: 60px;
 }
 
-#intro{
+#introBox{
     height: 744px;
     width: 6000px;
-position: relative;
-  animation-name: roll;
-  animation-duration: 24s;
-  animation-timing-function: ease-in-out;
-    display: block;
-  animation-iteration-count: infinite;
+    position: relative;
+    transition: all;
 }
-
-@keyframes roll {
-    0% {}
-    4.16%{transform: translate(-1190px, 0);}
-    24.96%{}
-    29.12%{transform: translate(-2380px, 0);}
-    49.92%{}
-    54.08%{transform: translate(-3570px, 0);}
-    74.88%{}
-    79.04%{transform: translate(-4760px, 0);}
-    100%{}
+.intro{
+    width: 1190px;
+    height: 744px;
 }
 
 .imgIntro{
@@ -89,17 +77,31 @@ position: relative;
 }
 
 #fb{
-    height: 25px;
+    height: 30px;
     margin-left: 20px;
 }
 
 #insta{
-    height: 25px;
+    height: 30px;
     margin-left: 10px;
 }
 .stuff:hover img{
     transform: scale(1.1);
 }
+.inner{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 #haha{
     margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#about{
+    height: 150px;
+    display: inline;
+    display: flex;
+    align-items: center;
 }
