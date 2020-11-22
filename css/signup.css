@@ -1,5 +1,6 @@
 body{
-    background-image: url(Untitled.png);
+    margin: 0;
+    background-image: url(../background.png);
 }
 #svg{
     margin-top: 350px;
@@ -12,7 +13,7 @@ img{
     font-family: 'FF Mark W05', sans-serif;;
     font-size: 72px;
     color: white;
-    position: fixed;
+    position: absolute;
     bottom: 6.474337872213077rem;
     left: 8.985335926978902rem;
     font-weight: 900;
