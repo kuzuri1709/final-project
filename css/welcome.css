@@ -32,7 +32,7 @@ body{
 
 #btnSignUp{
     border: 1px solid rgb(167, 7, 7);;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: rgb(167, 7, 7);
     color: rgb(255, 255, 255);
     height: 30px;
@@ -41,7 +41,7 @@ body{
 
 #btnLogin{
     border: 1px solid rgb(167, 7, 7);;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: rgb(167, 7, 7);
     color: rgb(255, 255, 255);
     height: 30px;

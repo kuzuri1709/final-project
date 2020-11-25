@@ -3,11 +3,8 @@ const DATA = {
         {
             question: '1 + 1 = ?',
             options: ['1', '2', '3', '4'],
-            correctAnswer: options[1]
+            correctAnswer: 1
         },
-        {
-    
-        }
     ],
 
     level_2: [
@@ -15,7 +12,7 @@ const DATA = {
     ]
     
 }
-
+console.log(DATA.level_1[0].correctAnswer)
 
 let accountInfo = [
     // {
@@ -32,24 +29,34 @@ let pwInput = document.getElementById('pwInput')
 let cfInput = document.getElementById('cfInput')
 
 let btnAdd = document.getElementById('create')
-
 btnAdd.addEventListener('click', function(){
     let name = nameInput.value
     let user = userInput.value
     let pw = pwInput.value
     let cf = cfInput.value
 
-    insertData(name, user, pw, cf)
+    if(cf === pw){
+        insertData(name, user, pw, cf)
+    }else{
+        alert('Please repeat your password')
+    }
+
+    
 })
 
 function insertData(name, user, pw, cf){
-    `{
+    let account =`{
         fullName: ${name},
         username: ${user},
         password:  ${pw},
         confirm: ${cf}
     }`
+
+    accountInfo.push(account)
 }
+
+insertData('haha', 'huhu', 'hehe', 'hehe')
+insertData('haha1', 'huhu2', 'hehe3', 'hehe3')
 
 
 // DATA[0].options[DATA.correctAnswer]
