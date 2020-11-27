@@ -117,7 +117,7 @@ body{
     background-color: greenyellow;
     height: 60px;
     width: 100%;
-    padding: 10px;
     border-bottom: 2px solid black;
-    
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
