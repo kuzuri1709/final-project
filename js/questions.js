@@ -65,67 +65,65 @@ const DATA = {
     level_2: [
 
     ]
-    
+
 }
 
-//Timer
-document.getElementById('timer').innerHTML = 
-    005 + ':' + 01;
-startTimer();
 
-function startTimer() {
-    let presentTime = document.getElementById('timer').innerHTML;
-    let timeArray = presentTime.split(/[:]+/);
-    let m = timeArray[0];
-    let s = checkSecond((timeArray[1]-1))
-
-    if(s==59){m=m-1;
-        if(m<0){alert('timer completed')}
-       }
-
-    document.getElementById('timer').innerHTML =
-    m + ":" + s;
-
-    setTimeout(startTimer, 1000)
-}
-
-function checkSecond(sec) {
-    if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
-    if (sec < 0) {sec = "59"};
-    return sec;
-  }
 
 //Generate random numbers
-var nums = [1,2,3,4,5,6,7,8,9,10,11,12];
-var gen_nums = [];
+// var nums = [1,2,3,4,5,6,7,8,9,10,11,12];
+randomQuestion(DATA.level_1)
 
-for(var i = 0; i < 10; i++) {
-    get_rand(nums);
-}
+function randomQuestion(array) {
+    if (array != null && array.length != 0) {
+        var gen_nums = [];
 
-function get_rand(array) {
-    var rand = array[Math.floor(Math.random()*array.length)];
-    if(!in_array(gen_nums, rand)) {
-       gen_nums.push(rand); 
-       return rand;
+        for (;;) {
+            if(gen_nums.length == 10){
+                break;
+            }
+            let randomNumer = get_rand(array.length);
+
+            if (!in_array(randomNumer, gen_nums)) {
+                gen_nums.push(randomNumer)
+            }
+        }
+        // console.log(gen_nums);
+        // console.log(generateQuestion(gen_nums, array));
+        return generateQuestion(gen_nums, array);
     }
-    return get_rand(array);
 }
 
-function in_array(array, el) {
-   for(var i = 0 ; i < array.length; i++) 
-       if(array[i] == el) return true;
-   return false;
+function get_rand(n) {
+    return Math.floor(Math.random() * n);
 }
 
+function in_array(el, gen_nums) {
+    for (var i = 0; i < gen_nums.length; i++)
+        if (gen_nums[i] == el) return true;
+    return false;
+}
+
+function generateQuestion(genNums, arr) {
+    let questions = [];
+
+    for (let i = 0; i < genNums.length; i++) {
+        questions.push(arr[genNums[i]]);
+    }
+    return questions;
+}
 //Select random question
 
-for(let i = 0; i < 10; i++){
+// function renderQuestions() {
+//     // let question = document.getElementsByClassName('items')[i]
+//     // let options = document.getElementsByClassName('options')[i]
+//     // let choices = document.getElementsByClassName('options')[i].getElementsByClassName('choices')
+//     let quizHeader = document.querySelectorAll('.quizHeader')[i];
+//     quizHeader.textContent = 
 
-}
+//     let x = 0
+//     quizHeader[i] = DATA.level_1[gen_nums[x]].question.value
+//     x++
 
-function renderQuestions() {
-    let question = document.getElementsByClassName('items')
-    let quizHeader = document.getElementsByClassName('quizHeader')
 
-}
+// }
