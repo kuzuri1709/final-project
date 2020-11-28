@@ -1,18 +1,5 @@
-const DATA = {
-    level_1: [
-        {
-            question: '1 + 1 = ?',
-            options: ['1', '2', '3', '4'],
-            correctAnswer: 1
-        },
-    ],
 
-    level_2: [
 
-    ]
-    
-}
-console.log(DATA.level_1[0].correctAnswer)
 
 let accountInfo = [
     // {
@@ -60,3 +47,4 @@ insertData('haha1', 'huhu2', 'hehe3', 'hehe3')
 
 
 // DATA[0].options[DATA.correctAnswer]
+

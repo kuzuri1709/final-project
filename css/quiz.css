@@ -10,7 +10,7 @@ body{
     height: 60px;
     background-color: black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 1;
@@ -21,7 +21,7 @@ body{
 }
 
 #accountBox{
-    width: 100%;
+    width: 164.38px;
     height: 60px;
     display: flex;
     justify-content: flex-end;
@@ -32,8 +32,9 @@ body{
 
 
 #contentQuiz{
+    box-sizing: border-box;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,23 +42,66 @@ body{
     padding-bottom: 100px;
 }
 
-.item{
+.items{
     box-sizing: border-box;
     width: 70%;
     height: 300px;
     margin: auto;
     box-sizing: border-box;
-    border: 1px solid black;
+    
 
 }
 
 .quizHeader{
-    background-color: greenyellow;
+    background-color:#ffffff;
     height: 60px;
     width: 100%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
     border-bottom: 2px solid black;
     padding: 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: 'FF Mark W05', sans-serif;
+    font-weight: 500;
+}
+
+.options{
+    width: 100%;
+    word-wrap: break-word;
+    border-bottom: 3px solid black;
+}
+
+.choices{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background-color: #e6e6e6;
+    border: 1px solid white;
+}
+
+.choices:hover{
+    background-color: gray;
+}
+
+#countdown{
+    border: 2px solid darkred;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkred;
+    color: white;
+}
+
+#timer{
+    font-size: 45px;
+    
 }
