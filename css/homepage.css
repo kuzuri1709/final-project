@@ -181,11 +181,17 @@ margin-left: 5px;
 z-index: 2;
 position: absolute;
 margin-top: -500px;
-margin-left: 480px;
+margin-left: 350px;
 font-size: 120px;
 font-weight: 700;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: rgb(255, 255, 255);
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #ece8e1;
+letter-spacing: 10px;
+text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
+.class::before {
+  content: ' \039E';
+  color: rgb(175, 51, 51);
+  margin-left: -40px;
+}
