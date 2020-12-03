@@ -63,7 +63,11 @@ const DATA = {
     ],
 
     level_2: [
-
+        {
+            question: 'Cho tập hợp M = {2 ; 4 ; 6}. Khẳng định nào sau đây là đúng?',
+            options: ['Số 2 không phải là phần tử của tập hợp M', 'Số 4 là phần tử của tập hợp M', 'Số 6 không phải là phần tử của tập hợp M', 'Số 3 là phần tử của tập hợp M'],
+            correctAnswer: 2
+        },
     ]
 
 }
@@ -71,26 +75,31 @@ const DATA = {
 
 
 //Generate random numbers
-// var nums = [1,2,3,4,5,6,7,8,9,10,11,12];
-randomQuestion(DATA.level_1)
+// console.log(randomQuestion(DATA.level_1))
 
 function randomQuestion(array) {
     if (array != null && array.length != 0) {
         var gen_nums = [];
 
-        for (;;) {
-            if(gen_nums.length == 10){
+        for (; ;) {
+            if (gen_nums.length == 10) {
                 break;
             }
-            let randomNumer = get_rand(array.length);
+            let randomNumber = get_rand(array.length);
 
-            if (!in_array(randomNumer, gen_nums)) {
-                gen_nums.push(randomNumer)
+            if (!in_array(randomNumber, gen_nums)) {
+                gen_nums.push(randomNumber)
             }
         }
         // console.log(gen_nums);
         // console.log(generateQuestion(gen_nums, array));
-        return generateQuestion(gen_nums, array);
+
+        let questions = [];
+
+        for (let i = 0; i < gen_nums.length; i++) {
+            questions.push(array[gen_nums[i]]);
+        }
+        return questions;
     }
 }
 
@@ -104,26 +113,6 @@ function in_array(el, gen_nums) {
     return false;
 }
 
-function generateQuestion(genNums, arr) {
-    let questions = [];
 
-    for (let i = 0; i < genNums.length; i++) {
-        questions.push(arr[genNums[i]]);
-    }
-    return questions;
-}
 //Select random question
 
-// function renderQuestions() {
-//     // let question = document.getElementsByClassName('items')[i]
-//     // let options = document.getElementsByClassName('options')[i]
-//     // let choices = document.getElementsByClassName('options')[i].getElementsByClassName('choices')
-//     let quizHeader = document.querySelectorAll('.quizHeader')[i];
-//     quizHeader.textContent = 
-
-//     let x = 0
-//     quizHeader[i] = DATA.level_1[gen_nums[x]].question.value
-//     x++
-
-
-// }
