@@ -22,7 +22,7 @@ btnAdd.addEventListener('click', function(){
     let pw = pwInput.value
     let cf = cfInput.value
 
-    if(cf === pw){
+    if(cf === pw && cf != '' && pw != ''){
         insertData(name, user, pw, cf)
         window.location.href = "homepage.html";
     }else{
