@@ -66,7 +66,57 @@ const DATA = {
         {
             question: 'Cho tập hợp M = {2 ; 4 ; 6}. Khẳng định nào sau đây là đúng?',
             options: ['Số 2 không phải là phần tử của tập hợp M', 'Số 4 là phần tử của tập hợp M', 'Số 6 không phải là phần tử của tập hợp M', 'Số 3 là phần tử của tập hợp M'],
-            correctAnswer: 2
+            correctAnswer: 1
+        },
+        {
+            question: 'Tập hợp {x ∈ N, x < 5} còn có cách viết khác là:',
+            options: ['{1 ; 2 ; 3 ; 4 ; 5}', '{0 ; 1 ; 2 ; 3 ; 4 ; 5}', '{1 ; 2 ; 3 ; 4}', '{0 ; 1 ; 2 ; 3 ; 4}'],
+            correctAnswer: 3
+        },
+        {
+            question: 'Tập hợp {x ∈ N, x < 6} còn có cách viết khác là:',
+            options: ['{1 ; 2 ; 3 ; 4 ; 5 ; 6}', '{0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6}', '{1 ; 2 ; 3 ; 4 ; 5}', '{0 ; 1 ; 2 ; 3 ; 4 ; 5}'],
+            correctAnswer: 3
+        },
+        {
+            question: 'P = {a ; b ; p ; 0 ; 1} và Q = {b ; d ; m ; 1 ; 2}. Tập hợp M các phần tử thuộc Q mà không thuộc P là:',
+            options: ['M = {a ; p ; 1}', 'M = {d ; m ; 1}', 'M = {d ; m}', 'M = {d ; m ; 2}'],
+            correctAnswer: 3
+        },
+        {
+            question: 'Gọi M là tập hợp các số tự nhiên nhỏ hơn 7. Cách viết nào sau đây không đúng?',
+            options: ['0 ∈ M', '1 ∈ M', '8 ∉ M', '7 ∈ M'],
+            correctAnswer: 3
+        },
+        {
+            question: 'Đẳng thức nào sau đây thể hiện tính chất giao hoán của phép cộng các số tự nhiên (với m, n, p là các số tự nhiên)?',
+            options: ['m + (n + p) = (m + n) + p', 'm . (n + p) = m . n + m . p', 'm + n = n + m', '(m + n) . p = m . p + n . p'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Tìm m để đồ thị hàm số y = ( 4m – 1 )x + 3 song song với đường thẳng y = - x + 7',
+            options: ['m = 1', 'm = 0', 'm = bất kỳ', 'Không có đáp án'],
+            correctAnswer: 1
+        },
+        {
+            question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
+            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
+            correctAnswer: 1
+        },
+        {
+            question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
+            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
+            correctAnswer: 1
+        },
+        {
+            question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
+            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
+            correctAnswer: 1
+        },
+        {
+            question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
+            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
+            correctAnswer: 1
         },
     ]
 
