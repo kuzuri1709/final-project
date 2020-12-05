@@ -24,6 +24,7 @@ btnAdd.addEventListener('click', function(){
 
     if(cf === pw){
         insertData(name, user, pw, cf)
+        window.location.href = "homepage.html";
     }else{
         alert('Please repeat your password')
     }
@@ -42,8 +43,7 @@ function insertData(name, user, pw, cf){
     accountInfo.push(account)
 }
 
-insertData('haha', 'huhu', 'hehe', 'hehe')
-insertData('haha1', 'huhu2', 'hehe3', 'hehe3')
+
 
 
 // DATA[0].options[DATA.correctAnswer]

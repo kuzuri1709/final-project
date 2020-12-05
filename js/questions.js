@@ -100,12 +100,12 @@ const DATA = {
         },
         {
             question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
-            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
-            correctAnswer: 1
+            options: ['5 cm', '25 m', 'a cm', '√5 cm'],
+            correctAnswer: 0
         },
         {
-            question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
-            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
+            question: 'Căn bậc ba của -125 là:',
+            options: ['0', 'a', 'a', '√a+b'],
             correctAnswer: 1
         },
         {
