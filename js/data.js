@@ -26,7 +26,7 @@ btnAdd.addEventListener('click', function(){
         insertData(name, user, pw, cf)
         window.location.href = "homepage.html";
     }else{
-        alert('Please repeat your password')
+        alert('Please input your password and confirm')
     }
 
     
