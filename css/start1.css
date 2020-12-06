@@ -27,8 +27,7 @@ body{
     font-weight: 900;
     color: blue;
     text-decoration: none;
-    margin-left: 70px;
-    margin-top: 300px;
+    margin-left: 80px;
   } 
   
   .btn-3:hover {
@@ -43,7 +42,11 @@ body{
     width: 500px;
     margin-left: 600px;
     margin-top: 70px;
-    height: 1000px;
+    height: 500px;
+  }
+
+  .ngon2{
+    margin-top: 100px;
   }
 
   .text{
@@ -52,4 +55,8 @@ body{
       font-size: 20px;
       margin-left: -150px;
       margin-top: 40px;
+  }
+
+  svg{
+    margin-top: 200px;
   }

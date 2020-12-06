@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/start1.css">
+</head>
+<body>
+    <div id="ngon">
+        <div id="Level"><span style="color: rgb(84, 84, 177);">LEVEL 1</span>  </div>
+        <div class="text">
+            - Level 1 is the level for grade 1-5. <br> <br>
+            - The timer began to run as soon as the ten questions were revealed, 
+            and you had to give the answers in 5 minutes before it reached 0.
+        </div>
+        <div class="ngon2">
+        <a href="quiz1.html" class="btn btn-3">START</a>
+        </div>
+    </div>
+   
+    
+
+    <svg width="500" height="60" id="svg">
+        <rect width="30" height="30" fill="blue">
+            <animate attributeName="x" from="0" to="300"
+                 dur="10s" fill="freeze" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="0" cy="15" r="10" fill=" cyan" stroke=" rgb(214, 66, 66)">
+            <animate attributeName="cx" from="0" to="300"
+                 dur="5s" fill="" repeatCount="indefinite"/>
+        </circle>
+    </svg>
+
+   <script src="start.js"></script>
+</body>
+</html>
