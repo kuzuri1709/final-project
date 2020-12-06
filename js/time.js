@@ -1,27 +1,34 @@
 //Timer
 document.getElementById('timer').innerHTML =
-    005 + ':' + 01;
+    005 + ':' + 00;
 startTimer();
 
+var myTime;
+var isStop = false;
 
 function startTimer() {
     let presentTime = document.getElementById('timer').innerHTML;
     let timeArray = presentTime.split(/[:]+/);
     let m = timeArray[0];
     let s = checkSecond((timeArray[1] - 1))
-
+    //  
+    // console.log(s);
     if (s == 59) {
         m = m - 1;
-        if (m < 0) { alert('timer completed') }
+        // if (m < 0) { alert('timer completed') }
     }
 
-    document.getElementById('timer').innerHTML =
-        m + ":" + s;
+    // if (m == '4' && s == '55') {
+    //     clearTimeout(myTime)
+    //     console.log('stop');
+    // }
+    // console.log(isStop);
+    if (m >= 0 ) {
+        myTime = setTimeout(startTimer, 1000)
+        document.getElementById('timer').innerHTML = m + ":" + s;
+    }
 
-
-
-
-    setTimeout(startTimer, 1000)
+   
 }
 
 function checkSecond(sec) {

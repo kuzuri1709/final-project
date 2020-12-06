@@ -56,11 +56,15 @@ btnSubmit.addEventListener('click', function () {
 
     let time = document.getElementById('timer').innerHTML;
     let timeDisplay = time.split(/[:]/)
-    
+    stopTimer()
     
     // console.log(timeDisplay)
+
+    
 })
 
 function stopTimer(){
-    
+    // document.getElementById('timer') 
+    // isStop = true;
+    clearTimeout(myTime)
 }
