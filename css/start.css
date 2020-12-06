@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-image: url(https://wallpapercave.com/wp/wp6988268.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#dcm{
+   
+}
+
+#Level{
+    color: white;
+    font-family: 'FF Mark W05', sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+}
