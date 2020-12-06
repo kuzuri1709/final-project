@@ -150,7 +150,8 @@ function randomQuestion(array) {
             questions.push(array[gen_nums[i]]);
         }
         return questions;
-        let correct = questions[i].correctAnswer.value
+        let correct = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        correct[i] = questions[i].correctAnswer.value
     }
 }
 
