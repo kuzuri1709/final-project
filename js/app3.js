@@ -14,11 +14,13 @@ function renderQuestions(attempt) {
             labelOption[j].addEventListener('click', function () {
                 labelOption[j].children[0].checked = true
             })
+
+            let correct = DATA.level_3.
+            if ()
         }
-
-
     }
 }
-
-
 renderQuestions(randomQuestion(DATA.level_3))
+
+function checkAnswer(x) {
+}

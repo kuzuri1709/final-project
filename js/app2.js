@@ -11,14 +11,23 @@ function renderQuestions(attempt) {
         for (let j = 0; j < labelOption.length; j++) {
             labelOption[j].children[1].textContent = attempt[i].options[j];
 
+            let x = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
             labelOption[j].addEventListener('click', function () {
                 labelOption[j].children[0].checked = true
+                x[j] = j;
+                if (x[j] == correct) {
+                    alert('hhhh');
+                }
             })
+
+
+
         }
-
-
     }
 }
 
 
 renderQuestions(randomQuestion(DATA.level_2))
+
+function checkAnswer() {
+}

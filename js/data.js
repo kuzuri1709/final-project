@@ -43,8 +43,3 @@ function insertData(name, user, pw, cf){
     accountInfo.push(account)
 }
 
-
-
-
-// DATA[0].options[DATA.correctAnswer]
-
