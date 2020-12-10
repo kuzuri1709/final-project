@@ -126,3 +126,15 @@ body{
     margin: auto;
     
 }
+
+.Result{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'FF Mark W05', sans-serif;
+    justify-content: center;
+}
+
+.result{
+    display: none;
+   
+}
