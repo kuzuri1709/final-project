@@ -1,6 +1,6 @@
 let options = document.querySelectorAll('.options');
 let quizHeader = document.querySelectorAll('.quizHeader span');
-let questions;
+
 // let label = document.querySelectorAll('.option .choices')
 
 
@@ -15,56 +15,55 @@ function renderQuestions(attempt) {
 
             labelOption[j].addEventListener('click', function () {
                 labelOption[j].children[0].checked = true
-
             })
         }
-
-
     }
-
-    questions = attempt;
-    console.log(questions);
-}
-
-function checkAnswer(answers) {
-    let score = 0;
-    for(let i = 0; i < questions.length; i++){
-        if(questions[i].correctAnswer == answers[i]){
-            score ++;
-        }
-    }
-    return score;
 }
 
 
-renderQuestions(randomQuestion(DATA.level_1))
+let questions = randomQuestion(DATA.level_1);
+renderQuestions(questions);
 
 let btnSubmit = document.getElementById('btnSubmit');
 btnSubmit.addEventListener('click', function () {
 
-    let answers = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+    let answers = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
     for (let i = 0; i < options.length; i++) {
         let labelOption = options[i].children;
 
         for (let j = 0; j < labelOption.length; j++) {
-            if(labelOption[j].children[0].checked == true){
+            if (labelOption[j].children[0].checked == true) {
                 answers[i] = j;
             }
         }
     }
-    // console.log(answers);
+    console.log(answers);
 
     let time = document.getElementById('timer').innerHTML;
     let timeDisplay = time.split(/[:]/)
     stopTimer()
-    
+    checkAnswer(questions, answers)
     // console.log(timeDisplay)
 
-    
+
 })
 
-function stopTimer(){
+function stopTimer() {
     // document.getElementById('timer') 
     // isStop = true;
     clearTimeout(myTime)
+}
+
+function checkAnswer(x, y) {
+    let score = 0;
+    let result = 0;
+    for (let i = 0; i < questions.length; i++) {
+        if (y[i] == x[i].correctAnswer) {
+            score++;
+        }
+    }
+
+    result = ((score / 10) * 100) + '%';
+    console.log(score);
+    console.log(result)
 }
