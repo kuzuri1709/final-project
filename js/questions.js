@@ -118,6 +118,64 @@ const DATA = {
             options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
             correctAnswer: 1
         },
+    ],
+
+    level_3: [
+        {
+            question: 'Các câu sau đây,có bao nhiêu câu là mệnh đề? (1) Ở đây đẹp quá! (2) Phương trình ((x^2) - 3x + 1 = 0 ) vô nghiệm (3) 16 không là số nguyên tố (4) Hai phương trình ((x^2) - 4x + 3 = 0 ) và ((x^2) - căn (x + 3)  + 1 = 0 ) có nghiệm chung. (5) Số (pi ) có lớn hơn (3 ) hay không? (6) Italia vô địch Worldcup 2006 (7) Hai tam giác bằng nhau khi và chỉ khi chúng có diện tích bằng nhau. (8) Một tứ giác là hình thoi khi và chỉ khi nó có hai đường chéo vuông góc với nhau.',
+            options: ['4', '6', '7', '5'],
+            correctAnswer: 1
+        },
+        {
+            question: 'Cho hai tập khác rỗng A = ( (m - 1;4) ];B = ( ( - 2;2m + 2) ),m thuộc mathbb(R). Tìm m để A giao B # rỗng .',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
+        {
+            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
+            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
+            correctAnswer: 0
+        },
     ]
 
 }
