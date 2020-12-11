@@ -1,5 +1,8 @@
 let options = document.querySelectorAll('.options');
 let quizHeader = document.querySelectorAll('.quizHeader span');
+let finalBox = document.querySelector('#resulT');
+let contentQuiz = document.querySelector('#contentQuiz');
+
 
 // let label = document.querySelectorAll('.option .choices')
 
@@ -40,9 +43,9 @@ btnSubmit.addEventListener('click', function () {
     console.log(answers);
 
     let time = document.getElementById('timer').innerHTML;
-    let timeDisplay = time.split(/[:]/)
-    stopTimer()
-    checkAnswer(questions, answers)
+    let timeDisplay = time.split(/[:]/);
+    stopTimer();
+    checkAnswer(questions, answers);
     // console.log(timeDisplay)
 
 
@@ -51,7 +54,7 @@ btnSubmit.addEventListener('click', function () {
 function stopTimer() {
     // document.getElementById('timer') 
     // isStop = true;
-    clearTimeout(myTime)
+    clearTimeout(myTime);
 }
 
 function checkAnswer(x, y) {
@@ -65,5 +68,10 @@ function checkAnswer(x, y) {
 
     result = ((score / 10) * 100) + '%';
     console.log(score);
-    console.log(result)
+    console.log(result);
+    
+    finalBox.style.display = 'block';
+    contentQuiz.style.display = 'none';
+    document.getElementById('score').innerHTML = score + '/10';
+    document.getElementById('Result').innerHTML = result;
 }
