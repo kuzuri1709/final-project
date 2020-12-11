@@ -1,6 +1,9 @@
 body{
     margin: 0;
-    background-image: url(../backgroundsignup.jpg);
+    background-image: url(http://getwallpapers.com/wallpaper/full/c/7/d/508556.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container{
@@ -12,7 +15,8 @@ body{
 }
 
 table, th, td{
-    border: 3px solid greenyellow;
+    border: 3px solid rgb(80, 38, 38);
     border-collapse: collapse;
+    color: pink
 }
 
