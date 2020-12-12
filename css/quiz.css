@@ -1,7 +1,9 @@
 body{
     margin: 0;
     background-image: url(https://www.theparisreview.org/blog/wp-content/uploads/2019/07/istock-512102071.jpg);
-    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header{
