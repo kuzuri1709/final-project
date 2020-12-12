@@ -81,7 +81,7 @@ function checkAnswer(x, y, z) {
     if (timey < 10) { document.getElementById('timE').innerHTML = 'Time: ' + timex + ':0' + timey; }
     else { document.getElementById('timE').innerHTML = 'Time: ' + timex + ':' + timey };
 
-    if(score<5){document.getElementById('nice').innerHTML = 'Try hard!'}
+    if(score<5){document.getElementById('nice').innerHTML = 'Try harder!'}
     if(score>=5&&score<=7){document.getElementById('nice').innerHTML = 'You can do better!'}
     if(score>7&&score<=9){document.getElementById('nice').innerHTML = 'Good job!'}
     if(score==10){document.getElementById('nice').innerHTML = 'Amazing!'}
