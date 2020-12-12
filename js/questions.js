@@ -60,6 +60,56 @@ const DATA = {
             options: ['42 tuần', '50 tuần', '56 tuần', '52 tuần'],
             correctAnswer: 3
         },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: 
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
     ],
 
     level_2: [
@@ -118,6 +168,56 @@ const DATA = {
             options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
             correctAnswer: 1
         },
+        {
+            question: 'So sánh hai số x = 2/-5 và y = -3/13 ',
+            options: ['x > y', 'x < y', 'x = y', 'x >= y'],
+            correctAnswer: 2
+        },
+        {
+            question: 'Kết quả của phép tính (3/2).(4/7) là:',
+            options: ['Một số nguyên âm', ' Một số nguyên dương', 'Một phân số nhỏ hơn 0 ', 'Một phân số lớn hơn 0'],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
     ],
 
     level_3: [
@@ -175,6 +275,56 @@ const DATA = {
             question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
             options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
             correctAnswer: 0
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
+        },
+        {
+            question: '',
+            options: ['', '', '', ''],
+            correctAnswer: 
         },
     ]
 
