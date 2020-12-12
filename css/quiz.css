@@ -156,6 +156,9 @@ body{
     height: 400px;
     background-color: white;
     display: none;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'FF Mark W05', sans-serif;
 }
 
 #Result{
@@ -166,22 +169,31 @@ body{
 #score{
     color: green;
     font-size: 30px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'FF Mark W05', sans-serif;
 }
 
 #timE{
     color: darkred;
     font-size: 30px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'FF Mark W05', sans-serif;
 }
 
 #retry{
     height: 40px;
     width: 100px;
-    background-color: darkred;
+    background-color: rgb(206, 42, 42);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
+    color: rgb(241, 233, 233);
     font-size: 20px;
+    font-weight: 500;
+    font-family: 'FF Mark W05', sans-serif;
+    border-radius: 5px;
 }
 #try{
     text-decoration: none;

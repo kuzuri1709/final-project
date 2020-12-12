@@ -61,54 +61,54 @@ const DATA = {
             correctAnswer: 3
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Muốn cộng hai phân số có cùng mẫu số ta làm như sau:',
+            options: ['Ta lấy tử số cộng với tử số, mẫu số cộng với mẫu số.', '	Ta lấy tử số cộng với tử số, mẫu số giữ nguyên.', 'Ta giữ nguyên tử số, mẫu số cộng với mẫu số.', 'Ta lấy tử số cộng với tử số, mẫu số nhân với mẫu số.'],
+            correctAnswer: 0
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Chọn phát biểu sai trong các phát biểu sau:',
+            options: ['Muốn trừ hai phân số có cùng mẫu số ta lấy tử số trừ đi tử số, giữ nguyên mẫu số.', 'Muốn trừ hai phân số có cùng mẫu số ta lấy tử số trừ đi tử số, mẫu số trừ đi mẫu số.', 'Muốn cộng hai phân số khác mẫu số, ta quy đồng mẫu số hai phân số rồi cộng hai phân số đã quy đồng.', 'Muốn trừ hai phân số khác mẫu số, ta quy đồng mẫu số hai phân số rồi trừ hai phân số đã quy đồng.'],
+            correctAnswer: 0
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Chọn đáp án đúng nhất:',
+            options: ['Phân số đảo ngược của một phân số là phân số đảo ngược tử số thành mẫu số, mẫu số thành tử số.', 'Muốn nhân hai phân số ta lấy tử số nhân với tử số, mẫu số nhân với mẫu số.', 'Muốn chia một phân số cho một phân số, ta lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược.', 'Tất cả các đáp án trên đều đúng.'],
+            correctAnswer: 0
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Mua 6 quyển vở thì hết 54000 đồng. Hỏi mua 9 quyển vở như thế thì hết bao nhiêu tiền?',
+            options: ['9000 đồng', '72000 đồng', '81000 đồng', '135000 đồng'],
+            correctAnswer: 2
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Có 15 người làm xong một công việc trong 16 ngày. Hỏi nếu có 24 người thì sẽ làm xong công việc đó trong bao nhiêu ngày? (Biết mức làm của mỗi người là như nhau).',
+            options: ['8 ngày', '10 ngày', '12 ngày', '14 ngày'],
+            correctAnswer: 1
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Một bếp ăn dự trữ gạo đủ cho 80 người ăn trong 15 ngày. Nếu chỉ có 60 người ăn thì số gạo đó đủ dùng trong bao nhiêu ngày?',
+            options: ['10 ngày', '20 ngày', '30 ngày', '320 ngày'],
+            correctAnswer: 1
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Người ta trồng ngô trên thửa ruộng hình chữ nhật có chiều rộng bằng 40m, chiều dài bằng 3/2 chiều rộng. Trung bình cứ 100m2 thu được 50kg ngô. Hỏi trên cả thửa ruộng đó người ta thu hoạch được bao nhiêu tạ ngô?',
+            options: ['12', '120', '1200', '12000'],
+            correctAnswer: 0
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Năm học sinh nam câu được 5 con cá trong 5 phút. Hỏi cùng với tốc độ câu như vậy thì 100 học sinh nam câu đ¬ược 100 con cá trong bao lâu?',
+            options: ['5 phút', '100 phút', '25 phút', '1 phút'],
+            correctAnswer: 0
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Phải nhân 45 với số nào để được kết quả là một số có chín chữ số 5 ?',
+            options: ['12 345 678', '12 345 769', ' 12 345 679', ' 12 345 769 '],
+            correctAnswer: 2
         },
         {
-            question: 
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Khi biết tổng và hệu của hai số, ta có thể áp dụng công thức nào để tìm hai số đó?',
+            options: ['	Số lớn = (tổng + hiệu) : 2', 'Số bé = (tổng – hiệu) : 2', '	Cả A và B đều sai', 'Cả A và B đều đúng'],
+            correctAnswer: 3
         },
     ],
 
@@ -171,52 +171,52 @@ const DATA = {
         {
             question: 'So sánh hai số x = 2/-5 và y = -3/13 ',
             options: ['x > y', 'x < y', 'x = y', 'x >= y'],
-            correctAnswer: 2
+            correctAnswer: 1
         },
         {
             question: 'Kết quả của phép tính (3/2).(4/7) là:',
             options: ['Một số nguyên âm', ' Một số nguyên dương', 'Một phân số nhỏ hơn 0 ', 'Một phân số lớn hơn 0'],
-            correctAnswer: 
+            correctAnswer: 3 
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Tính nhanh 21,6 + 34,7 + 78,4 + 65,3 được:',
+            options: ['100', '200', '300', '400'],
+            correctAnswer: 1
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Chia 48 thành bốn phần tỉ lệ với các số là 3; 5; 7; 9. Các số đó theo thứ tự tăng dần là?',
+            options: ['6; 12; 14; 18 ', '18; 14; 10; 6', '6; 14; 10; 18 ', ' 6; 10; 14; 18'],
+            correctAnswer: 3
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Tìm x, y biết x/y = 7/3 và 5x - 2y = 87',
+            options: ['x = 9 ; y = 21', 'x = 21 ; y = 9', 'x = 21 ; y = -9', 'x = -21 ; y = -9'],
+            correctAnswer: 1
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Cho x/2 = y/5 và x.y = 10. Tính x - y, biết x > 0, y > 0 ',
+            options: ['-3', '3', '8', '-8'],
+            correctAnswer: 0
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Làm tròn số 0,158 đến chữ số thập phân thứ nhất ta được',
+            options: [' 0,17', '0,159', '0,16', '0,2'],
+            correctAnswer: 3
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Cho biết x tỉ lệ thuận với y theo hệ số tỉ lệ là 0,6 và y tỉ lệ thuận với z theo hệ số tỉ lệ là 3. Hỏi x tỉ lệ thuận với z theo hệ số tỉ lệ là bao nhiêu?',
+            options: ['2,4', '3,6', '1,8', '5'],
+            correctAnswer: 2
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Một đội thợ gồm 35 người ăn hết số gạo được phân phát trong 68 ngày. Hỏi 28 người ăn hết số gạo đó trong mấy ngày? ',
+            options: ['50 ngày', '65 ngày', '85 ngày', '100 ngày'],
+            correctAnswer: 1
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Giá trị của biểu thức A = ( xy2 )3:( xy )3 tại x= -1, y =1 là ?',
+            options: [' A= -1', ' A= 1', ' A= 0', ' A= 2'],
+            correctAnswer: 1
         },
     ],
 
@@ -277,54 +277,54 @@ const DATA = {
             correctAnswer: 0
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Lớp 10A có 7 HS giỏi Toán, 5 HS giỏi Lý, 6 HS giỏi Hoá, 3 HS giỏi cả Toán và Lý, 4 HS giỏi cả Toán và Hoá, 2 HS giỏi cả Lý và Hoá, 1 HS giỏi cả 3 môn Toán , Lý, Hoá . Số HS giỏi  ít nhất một môn (Toán, Lý , Hoá ) của lớp 10A là:',
+            options: ['9', '10', '18', '28'],
+            correctAnswer:  2
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Hỏi có bao nhiêu cách xếp học sinh trong tổ thành một hàng dọc?',
+            options: ['	4!.5!', '4!+5!', '9! ', 'A49.A59'],
+            correctAnswer: 3
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Sắp xếp năm bạn học sinh An, Bình, Chi, Dũng, Lệ vào một chiếc ghế dài có 5 chỗ ngồi. Số cách sắp xếp sao cho bạn Chi luôn ngồi chính giữa là ',
+            options: ['24', '120', '60', '16'],
+            correctAnswer: 0
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Có 3 viên bi đen khác nhau, 4 viên bi đỏ khác nhau, 5 viên bi xanh khác nhau. Hỏi có bao nhiêu cách sắp xếp các viên bi trên thành một dãy sao cho các viên bi cùng màu ở cạnh nhau? ',
+            options: ['345600', '725760 ', '103680 ', '518400'],
+            correctAnswer: 2
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Có bao nhiêu cách xếp khác nhau cho 4 người ngồi vào 6 chỗ trên một bàn dài? ',
+            options: ['15', '720', '30', '360'],
+            correctAnswer: 3
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Trong một ban chấp hành đoàn gồm 7 người, cần chọn ra 3 người vào ban thường vụ. Nếu cần chọn ban thường vụ gồm ba chức vụ bí thư, phó bí thư, ủy viên thường vụ thì có bao nhiêu cách chọn? ',
+            options: ['210', '200', '180', '150'],
+            correctAnswer: 0
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Dãy số (un) có phải là cấp số cộng không ? Nếu phải hãy xác định số công sai d, biết rẳng  un = 2n + 3 ',
+            options: ['d = -2 ', 'd = 3 ', 'd = 5 ', 'd = 2 '],
+            correctAnswer: 3
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: ' Cho cấp số cộng có 8 số hạng. Số hạng đầu bằng 3 số hạng cuối bằng 24. Tính tổng các số hạng này ',
+            options: ['105', '27', '108', '111'],
+            correctAnswer: 2
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Cho 4 số lập thành cấp số cộng. Tổng của chúng bằng 22. Tổng các bình phương của chúng bằng 166. Tổng các lập phương của chúng bằng : ',
+            options: ['22', '166', '1752', '1408'],
+            correctAnswer: 3
         },
         {
-            question: '',
-            options: ['', '', '', ''],
-            correctAnswer: 
+            question: 'Cho cấp số cộng (un) có: u1 = -0,1; d = 0,1. Số hạng thứ 7 của cấp số cộng này là: ',
+            options: ['1,6', '6', '0,5', '0,6'],
+            correctAnswer: 2
         },
     ]
 
