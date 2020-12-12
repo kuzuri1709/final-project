@@ -45,7 +45,7 @@ btnSubmit.addEventListener('click', function () {
     let time = document.getElementById('timer').innerHTML;
     let timeDisplay = time.split(/[:]/);
     stopTimer();
-    checkAnswer(questions, answers);
+    checkAnswer(questions, answers, timeDisplay);
     // console.log(timeDisplay)
 
 
@@ -57,7 +57,7 @@ function stopTimer() {
     clearTimeout(myTime);
 }
 
-function checkAnswer(x, y) {
+function checkAnswer(x, y, z) {
     let score = 0;
     let result = 0;
     for (let i = 0; i < questions.length; i++) {
@@ -69,10 +69,15 @@ function checkAnswer(x, y) {
     result = ((score / 10) * 100) + '%';
     console.log(score);
     console.log(result);
-    
+
     finalBox.style.display = 'block';
     contentQuiz.style.display = 'none';
     document.getElementById('score').innerHTML = score + '/10';
     document.getElementById('Result').innerHTML = result;
-    document.getElementById('timE'),innerHTML = timeDisplay;
+    let timeFinal = 300 - (Number(z[0]) * 60 + Number(z[1]));
+    let timex = Math.floor(timeFinal / 60);
+    let timey = timeFinal;
+    timey = timey % 60;
+    if (timey < 10) { document.getElementById('timE').innerHTML = 'Time: ' + timex + ':0' + timey; }
+    else { document.getElementById('timE').innerHTML = 'Time: ' + timex + ':' + timey };
 }
