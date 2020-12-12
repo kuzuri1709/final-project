@@ -159,16 +159,6 @@ const DATA = {
             correctAnswer: 1
         },
         {
-            question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
-            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
-            correctAnswer: 1
-        },
-        {
-            question: 'Cho tam giác DEF vuông tại D, có DE =3cm; DF =4cm. Khi đó độ dài cạnh huyềnbằng :',
-            options: ['số có bình phương bằng a', 'a', 'a', '√a+b'],
-            correctAnswer: 1
-        },
-        {
             question: 'So sánh hai số x = 2/-5 và y = -3/13 ',
             options: ['x > y', 'x < y', 'x = y', 'x >= y'],
             correctAnswer: 1
@@ -228,51 +218,6 @@ const DATA = {
         },
         {
             question: 'Cho hai tập khác rỗng A = ( (m - 1;4) ];B = ( ( - 2;2m + 2) ),m thuộc mathbb(R). Tìm m để A giao B # rỗng .',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
-            options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
-            correctAnswer: 0
-        },
-        {
-            question: 'Cho (A = [ ( - 3;2) ) ). Tập hợp ((C_ mathbb(R))A ) là :',
             options: ['-2 < m < 5', 'm > -3', '-1 < m < 5', '1 < m < 5'],
             correctAnswer: 0
         },
