@@ -159,7 +159,6 @@ body{
 }
 
 #Result{
-    background-color: white;
     color: yellowgreen;
     font-size: 30px;
 }
@@ -172,4 +171,18 @@ body{
 #timE{
     color: darkred;
     font-size: 30px;
+}
+
+#retry{
+    height: 40px;
+    width: 100px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#try{
+    text-decoration: none;
 }

@@ -69,11 +69,15 @@ function checkAnswer(x, y, z) {
     result = ((score / 10) * 100) + '%';
     console.log(score);
     console.log(result);
-    
+
     finalBox.style.display = 'block';
     contentQuiz.style.display = 'none';
     document.getElementById('score').innerHTML = score + '/10';
     document.getElementById('Result').innerHTML = result;
-    document.getElementById('timE'),innerHTML = (5-z[0]) + ':' + (60-z[1]);
-    console.log(z);
+    let timeFinal = 300 - (Number(z[0]) * 60 + Number(z[1]));
+    let timex = Math.floor(timeFinal / 60);
+    let timey = timeFinal;
+    timey = timey % 60;
+    if (timey < 10) { document.getElementById('timE').innerHTML = 'Time: ' + timex + ':0' + timey; }
+    else { document.getElementById('timE').innerHTML = 'Time: ' + timex + ':' + timey};
 }
