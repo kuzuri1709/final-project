@@ -74,4 +74,5 @@ function checkAnswer(x, y) {
     contentQuiz.style.display = 'none';
     document.getElementById('score').innerHTML = score + '/10';
     document.getElementById('Result').innerHTML = result;
+    document.getElementById('timE'),innerHTML = timeDisplay;
 }
