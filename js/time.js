@@ -15,7 +15,7 @@ function startTimer() {
     // console.log(s);
     if (s == 59) {
         m = m - 1;
-        // if (m < 0) { alert('timer completed') }
+        if (m < 0) { alert('timer completed') };
     }
 
     // if (m == '4' && s == '55') {
@@ -27,8 +27,6 @@ function startTimer() {
         myTime = setTimeout(startTimer, 1000)
         document.getElementById('timer').innerHTML = m + ":" + s;
     }
-    
-   
 }
 
 function checkSecond(sec) {
