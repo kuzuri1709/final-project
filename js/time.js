@@ -27,7 +27,7 @@ function startTimer() {
         myTime = setTimeout(startTimer, 1000)
         document.getElementById('timer').innerHTML = m + ":" + s;
     }
-
+    
    
 }
 
