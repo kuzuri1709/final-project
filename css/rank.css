@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(http://getwallpapers.com/wallpaper/full/c/7/d/508556.jpg);
+    background-image: url(../math1.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +17,9 @@ body{
 table, th, td{
     border: 3px solid rgb(80, 38, 38);
     border-collapse: collapse;
-    color: pink
+    color: black
 }
+table{
+    background-color: bisque;
 
+}
